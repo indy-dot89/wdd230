@@ -4,34 +4,42 @@
 <head>
   <title>Anderson Malaikal | WDD230 Assignment Portal</title>
   <meta name="author" content="Anderson Malaikal">
-  <meta name="description" content="WDD 230: Web Frontend Development I assignment portal for Anderson Malaikal taken at Brigham Young University - Idaho (BYUi).">
-
+  <meta name="description" content= "WDD 230: Web Frontend Development I assignment portal for Anderson Malaikal taken at Brigham Young University - Idaho (BYU-I).">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <h1>Anderson Malaikal</h1>
+    <nav class="w3-bar w3-black">
+      <a href="https://indy-dot89.github.io/wdd230/" class="w3-button w3-bar-item">Home</a>
+      <a href="#Man" class="w3-button w3-bar-item">Man</a>
+      <a href="#Myth" class="w3-button w3-bar-item">Myth</a>
+      <a href="#Legend" class="w3-button w3-bar-item">Legend</a>
+    </nav>
     <img src= 'family' alt = "cool family">
   </header>
   <main>
     <h2>
     WDD230 Course Assignment Portal
-    </h2> <hr>
-    <ul>
-      <li> <a href=""> text
-      </a>
-
-      </li>
-    </ul>
+    </h2> 
+    <hr>
   </main>
  <footer>
    <ul>
-     <li>&copy; 2021</li>
+     <li>&copy; 2022</li>
      <li>Anderson Malaikal</li>
      <li>Utah</li>
-     <li> <a href="https://www.byui.edu/online" target="_blank"> BYU I Online</a></li>
+     <li><a href="https://www.byui.edu/online" target="_blank"> BYU-I Online</a></li>
    </ul>
+   <p id="demo"></p>
+
+   <script>
+   const d = new Date();
+   document.getElementById("demo").innerHTML = d;
+   </script>
+   
  </footer>
- 
+
 </body>
 
 </html>
