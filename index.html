@@ -2,6 +2,13 @@
 <html lang="en-us">
 <meta charset="utf-8">
 <head>
+  <style>
+    .center {
+      margin: auto;
+      width: 60%;
+      padding: 10px;
+    }
+    </style>
   <title>Anderson Malaikal | WDD230 Assignment Portal</title>
   <meta name="author" content="Anderson Malaikal">
   <meta name="description" content= "WDD 230: Web Frontend Development I assignment portal for Anderson Malaikal taken at Brigham Young University - Idaho (BYU-I).">
@@ -12,10 +19,6 @@
     <h1>Anderson Malaikal</h1>
     <nav class="w3-bar w3-black">
       <a href="https://indy-dot89.github.io/wdd230/" class="w3-button w3-bar-item">Home</a>
-      <a href="#Man" class="w3-button w3-bar-item">Man</a>
-      <a href="#Myth" class="w3-button w3-bar-item">Myth</a>
-      <a href="#Legend" class="w3-button w3-bar-item">Legend</a>
-    </nav>
     <img src="myportrait.jpg" alt ="My Portrait">
   </header>
   <main>
@@ -24,6 +27,7 @@
     </h2>
     <hr>
   </main>
+ 
  <footer>
    <ul>
      <li>&copy; 2022</li>
@@ -31,15 +35,16 @@
      <li>Utah</li>
      <li><a href="https://www.byui.edu/online" target="_blank"> BYU-I Online</a></li>
    </ul>
+   Last Modified
    <p id="demo"></p>
-
    <script>
+   var string = document.lastModified;
    const d = new Date();
    document.getElementById("demo").innerHTML = d;
    </script>
    
  </footer>
-
+ 
 </body>
 
 </html>
